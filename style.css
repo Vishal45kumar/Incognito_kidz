@@ -1,0 +1,432 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.site-title {
+  text-align: center;
+  flex: 1;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  max-width: 800px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+footer button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+  background-color: #45a049;
+}
+/* Add to the end of the CSS file */
+body.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+/* Add this to your existing styles.css */
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"],input[type="verification id"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Add this to your existing styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.site-title {
+    text-align: center;
+    flex: 1;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Container for Sidebar and Main Content */
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.updates {
+    margin-bottom: 30px;
+}
+
+.updates h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.update-row {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.profile {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.highlight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Chatting Page Styles */
+.chat-container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.contacts {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacts ul li:hover {
+    background-color: #d9d9d9;
+}
+
+.chat-window {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatWith {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.messages {
+    flex: 1;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    max-width: 70%;
+}
+
+.message.sent {
+    background-color: #4CAF50;
+    color: white;
+    align-self: flex-end;
+}
+
+form {
+    display: flex;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
